@@ -5,12 +5,12 @@
 using namespace std;
 
 string add(string a, string b){
-    cout << a << endl;
-    cout << b << endl;
+//    cout << a << endl;
+//    cout << b << endl;
     while(a.size() < b.size()) a.insert(0, "0");
     while(b.size() < a.size()) b.insert(0, "0");
-    cout << a << endl;
-    cout << b << endl;
+//    cout << a << endl;
+//    cout << b << endl;
     int n = a.size();
     string res(n, ' ');
     for (int i = n - 1, d = 0; i >= 0; --i){
